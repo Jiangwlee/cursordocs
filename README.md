@@ -1,13 +1,20 @@
-# cursordocs
+# Cursor Docs
 Some docs that help improve cursor performance.
 
-# Best Practices
+# How To Use
+
+Open your cursor and [add a new doc](https://docs.cursor.com/context/@-symbols/@-docs). Fill in `https://jiangwlee.github.io/cursordocs/` as the entrypoint. Cursor with index the docs automatically.
+
+Once indexing is done, you can add this doc to cursor context and ask cursor to follow `best practices`, `coding specs`, or refer to the `project structure`.
+
+# Doc References
+## Best Practices
 - [Cursor Rule Best Practices](./best-practices/cursor-best-pactices.md)
 
-# Coding Specification
+## Coding Specification
 - [General Coding Specifications](./coding-specs/general-coding-specs.md)
 
-# Project Structure
+## Project Structure
 
 Project structure examples for different project types.
 - [Streamlit MVP Project Structure](./project-structure/streamlit-mvp-project.md)
