@@ -8,6 +8,13 @@ Open your cursor and [add a new doc](https://docs.cursor.com/context/@-symbols/@
 Once indexing is done, you can add this doc to cursor context and ask cursor to follow `best practices`, `coding specs`, or refer to the `project structure`.
 
 # Doc References
+
+## Cursor Global Rules (User Rules)
+
+- [Cursor Task Rules](./cursor-global-rules/tasks.md)
+- [Cursor Principles](./cursor-global-rules/principles.md)
+
+
 ## Best Practices
 - [Cursor Rule Best Practices](./best-practices/cursor-best-pactices.md)
 
