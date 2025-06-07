@@ -1,10 +1,16 @@
 # When to use?
 
-Streamlit适合作为**MVP阶段**的技术选型，用于快速构建系统原型。
+Streamlit is suitable as a technical choice for the **MVP phase**, used for rapid system prototyping.
 
 # Project structure
 
-以下代码结构基于第一性原理和奥卡姆剃刀原则出发进行设计，作为**MVP阶段**的建议架构，同时考虑了系统的扩展性和未来演进方向（前后端分离、容器化部署）。
+The following code structure is designed based on first principles and Occam's Razor principle, serving as a recommended architecture for the **MVP phase**, while considering system scalability and future evolution (frontend-backend separation, containerized deployment).
+
+**Important: System Directory Design and Optimization Principles**
+1. Design a frontend-backend separated project directory structure to facilitate future frontend architecture replacement
+2. Based on **First Principles** and **Occam's Razor principle**, optimize the following directory structure to better align with project requirements.
+
+**Project Structure Example**
 
 ```text
 project-root/
