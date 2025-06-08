@@ -103,3 +103,9 @@
 - Always prioritize retrieving long-term memory from mem0.
 - If mem0 is unavailable, use local cache temporarily and sync once restored.
 - Ensure data security and access control when interacting with mem0.
+
+## 12. Library and Component Usage Rule
+- Always review Cursor Docs or the latest official documentation via context7 before using any library or component.
+- Ensure all code references and implementations are up-to-date and aligned with current best practices.
+- Avoid using deprecated or outdated interfaces to maintain code quality and compatibility.
+- Document any deviations or custom implementations for future reference.
