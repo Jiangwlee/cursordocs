@@ -97,3 +97,9 @@
   - Performance monitoring
   - Error tracking
   - Log collection
+
+## 11. Memory Management Preferences
+- Default to mem0 mcp server as the long-term memory backend for Cursor.
+- Always prioritize retrieving long-term memory from mem0.
+- If mem0 is unavailable, use local cache temporarily and sync once restored.
+- Ensure data security and access control when interacting with mem0.
