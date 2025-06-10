@@ -1,111 +1,111 @@
 # Cursor Development Preferences
 
 ## 1. Development Environment
-- Operating System: Windows 11
+- OS: Windows 11
 - Editor: Cursor
 - Terminal: PowerShell
 
-## 2. Code Style Preferences
+## 2. Code Style
 - Indentation: 4 spaces
-- Line Endings: LF (Unix style)
-- File Encoding: UTF-8
-- Maximum Line Length: 120 characters
+- Line Endings: LF (Unix)
+- Encoding: UTF-8
+- Max Line Length: 120 characters
 
 ## 3. Language Preferences
-### Backend Development: Python
+
+### Python (Backend)
 - Package Manager: uv
 - Best Practices:
-  - Use type annotations
-  - Follow PEP 8 guidelines
-  - Use virtual environments
-  - Prioritize asynchronous programming
-  - Use dataclass or Pydantic models
+    - Use type annotations
+    - Follow PEP 8
+    - Use virtual environments
+    - Prefer asynchronous programming
+    - Use dataclass or Pydantic models
 
-### Frontend Development: TypeScript/JavaScript
-- Framework Preferences: React, Next.js
+### TypeScript/JavaScript (Frontend)
+- Frameworks: React, Next.js
 - Package Manager: pnpm
-- Code Formatter: Prettier
-- Linting Tool: ESLint
+- Formatter: Prettier
+- Linter: ESLint
 - Best Practices:
-  - Use functional components and Hooks
-  - Enable TypeScript strict mode
-  - Follow atomic design principles
-  - Prioritize React Query for state management
+    - Use functional components and Hooks
+    - Enable TypeScript strict mode
+    - Follow atomic design
+    - Prefer React Query for state management
 
-### API Development: FastAPI
+### FastAPI (API)
 - Best Practices:
-  - Use Pydantic model validation
-  - Implement OpenAPI documentation
-  - Apply dependency injection
-  - Implement middleware and exception handling
-  - Use asynchronous database operations
+    - Use Pydantic for validation
+    - Provide OpenAPI docs
+    - Apply dependency injection
+    - Implement middleware and exception handling
+    - Use async DB operations
 
-## 4. Documentation Preferences
+## 4. Documentation
 - Format: Markdown
-- Comment Language: Chinese
-- Structure: Clear hierarchical organization
-- Code Examples: Include complete runnable examples
-- Documentation Standards:
-  - Use Markdown extended syntax
-  - Include table of contents
-  - Add code highlighting
-  - Use tables for configuration items
+- Comments: Chinese
+- Structure: Hierarchical
+- Code Examples: Complete and runnable
+- Standards:
+    - Use extended Markdown
+    - Include table of contents
+    - Syntax highlighting
+    - Use tables for configs
 
 ## 5. Version Control
-- Version Control System: Git
-- Commit Message Format: Follow Conventional Commits
-- Security: Use .gitignore for sensitive data files
-- Branch Strategy:
-  - main: Production branch
-  - develop: Development branch
-  - feature/*: Feature branches
-  - hotfix/*: Emergency fix branches
+- System: Git
+- Commit Format: Conventional Commits
+- Security: .gitignore for sensitive files
+- Branching:
+    - main: Production
+    - develop: Development
+    - feature/*: Features
+    - hotfix/*: Hotfixes
 
-## 7. Testing Standards
-- Unit Testing: pytest (Python), Jest (TypeScript)
-- Test Coverage Requirement: > 80%
-- Test Naming Convention: test_<feature>_<scenario>
-- Test Data: Use fixtures and factories
+## 6. Testing
+- Python: pytest
+- TypeScript: Jest
+- Coverage: > 80%
+- Naming: test_<feature>_<scenario>
+- Data: Use fixtures/factories
 
-## 8. Security Preferences
-- Sensitive Information: Use environment variables
-- API Keys: Use key management services
-- Security Best Practices:
-  - Use HTTPS
-  - Implement CORS policies
-  - Add rate limiting
-  - Implement authentication and authorization
-  - Regular dependency updates
+## 7. Security
+- Use environment variables for secrets
+- Use key management for API keys
+- Best Practices:
+    - Enforce HTTPS
+    - CORS policies
+    - Rate limiting
+    - AuthN & AuthZ
+    - Regular dependency updates
 
-## 9. Performance Optimization
+## 8. Performance
 - Code splitting
 - Lazy loading
-- Caching strategies
-- Database indexing
-- Asynchronous processing
+- Caching
+- DB indexing
+- Async processing
 - Resource compression
 
-## 10. Deployment Standards
-- Containerization: Docker
+## 9. Deployment
+- Container: Docker
 - CI/CD: GitHub Actions
-- Environment Configuration:
-  - Development environment
-  - Testing environment
-  - Staging environment
-  - Production environment
-- Monitoring and Alerting:
-  - Performance monitoring
-  - Error tracking
-  - Log collection
+- Environments: dev, test, staging, prod
+- Monitoring:
+    - Performance
+    - Error tracking
+    - Log collection
 
-## 11. Memory Management Preferences
-- Default to mem0 mcp server as the long-term memory backend for Cursor.
-- Always prioritize retrieving long-term memory from mem0.
-- If mem0 is unavailable, use local cache temporarily and sync once restored.
-- Ensure data security and access control when interacting with mem0.
+## 10. Memory Management
+- Use mem0 mcp server for long-term memory
+- Fallback to local cache if unavailable, sync when restored
+- Ensure data security and access control
 
-## 12. Library and Component Usage Rule
-- Always review Cursor Docs or the latest official documentation via context7 before using any library or component.
-- Ensure all code references and implementations are up-to-date and aligned with current best practices.
-- Avoid using deprecated or outdated interfaces to maintain code quality and compatibility.
-- Document any deviations or custom implementations for future reference.
+## 11. Library & Component Usage
+- Always review documentation in the following priority before using any library or component:
+    1. Cursor Docs
+    2. Context7 mcp server
+    3. Online official documentation
+- Ensure all code references and implementations are up-to-date and follow current best practices.
+- Avoid using deprecated or outdated APIs.
+- Document any custom implementations or deviations for future reference.

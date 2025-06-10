@@ -1,7 +1,3 @@
-Here is the English translation of the optimized Cursor Task Rules:
-
----
-
 # Cursor Task Rules
 
 ## Table of Contents
