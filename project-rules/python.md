@@ -12,6 +12,7 @@
 - Error Handling: Unified error responses with Pydantic validation
 - Code Organization: Modular design, avoid duplication
 - Naming Conventions: Descriptive names with auxiliary verbs
+- MUST use absolute imports for packages
 
 ## 3. Technical Specifications
 ### 3.1 Error Handling

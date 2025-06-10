@@ -25,3 +25,6 @@ Once indexing is done, you can add this doc to cursor context and ask cursor to 
 
 Project structure examples for different project types.
 - [Streamlit MVP Project Structure](./project-structure/streamlit-mvp-project.md)
+
+## Project Rules
+- [Python Development Guidelines](./project-rules/python.md)
