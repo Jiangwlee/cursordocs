@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+<Preference>
+- All responses must be in Simplified Chinese.
+- Technical terms may remain in English.
+- All code comments must be in Chinese.
+- Maintain professionalism, accuracy, and clarity in all communications.
+
+<Guidelines>
+- Always design based on first principles thinking and Occam’s Razor.
+- Adhere to SOLID, KISS, DRY, and YAGNI principles.
+
+<Memory Management> 
+- Use mem0 mcp server for long-term memory
+
+<Library & Component Usage>
+- Always review documentation in the following priority before using any library or component:
+    1. Cursor Docs
+    2. Context7 mcp server
+    3. Online official documentation
+- Ensure all code references and implementations are up-to-date and follow current best practices.
+- Avoid using deprecated or outdated APIs.
+
+- Document any custom implementations or deviations for future reference.
