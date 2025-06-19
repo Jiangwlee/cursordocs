@@ -23,5 +23,4 @@ alwaysApply: true
     3. Online official documentation
 - Ensure all code references and implementations are up-to-date and follow current best practices.
 - Avoid using deprecated or outdated APIs.
-
 - Document any custom implementations or deviations for future reference.
